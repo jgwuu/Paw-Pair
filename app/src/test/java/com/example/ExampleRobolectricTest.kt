@@ -1,4 +1,4 @@
-package com.jgwuu.pawpair
+package com.example
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
