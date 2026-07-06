@@ -100,7 +100,7 @@ fun KitchenScreen(
                 Spacer(modifier = Modifier.width(12.dp))
                 Column(modifier = Modifier.weight(1f)) {
                     Text(
-                        text = "Studio Gourmet & Recetas Mágicas ✨",
+                        text = "Cocina Gourmet & Recetas Mágicas ✨",
                         fontSize = 16.sp,
                         fontWeight = FontWeight.Black,
                         color = if (currentTheme == "CYBER") Color.White else themeAccentColor

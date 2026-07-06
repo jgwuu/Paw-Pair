@@ -170,7 +170,7 @@ object CoMascotaSyncService {
                      "1. Entra a tu Consola de Firebase.\n" +
                      "2. Ve a la sección 'Realtime Database' en el menú izquierdo.\n" +
                      "3. Copia la URL que aparece justo encima de la pestaña 'Datos' (comienza con https:// y termina en .firebaseio.com o .firebasedatabase.app).\n" +
-                     "4. Agrégala en los Secretos de AI Studio con el nombre: FIREBASE_DATABASE_URL")
+                     "4. Agrégala en tu configuración (.env) con el nombre: FIREBASE_DATABASE_URL")
             return
         }
 
@@ -200,7 +200,7 @@ object CoMascotaSyncService {
                     onResult("🔴 Error de Configuración (Redirección):\n" +
                              "El servidor devolvió una página de inicio de sesión de Google.\n\n" +
                              "Esto confirma que la URL configurada ($url) es de la consola de Firebase o requiere privilegios de navegador.\n\n" +
-                             "Por favor, asegúrate de ingresar la URL de la Base de Datos (ej: https://proyecto.firebaseio.com/) en lugar de la consola de administración en los Secretos de AI Studio.")
+                             "Por favor, asegúrate de ingresar la URL de la Base de Datos (ej: https://proyecto.firebaseio.com/) en lugar de la consola de administración en tu configuración (.env).")
                     return
                 }
 
@@ -605,7 +605,7 @@ object CoMascotaSyncService {
     ) {
         val apiKey = geminiApiKey
         if (apiKey.isBlank() || apiKey == "MY_GEMINI_API_KEY") {
-            onResult("⚠️ Configuración pendiente:\nPara que tu mascota te hable con Inteligencia Artificial, agrega tu API Key en los Secretos de AI Studio con el nombre 'GEMINI_API_KEY' o 'key'.")
+            onResult("⚠️ Configuración pendiente:\nPara que tu mascota te hable en vivo, agrega tu API Key en tu configuración (.env) con el nombre 'GEMINI_API_KEY' o 'key'.")
             return
         }
 
@@ -664,7 +664,7 @@ object CoMascotaSyncService {
                     if (!response.isSuccessful) {
                         Log.e("CoMascotaSyncService", "Gemini API response error: ${response.code} - $bodyText")
                         if (response.code == 400 || response.code == 403) {
-                            onResult("⚠️ Error de API Key:\nLa API Key configurada para Gemini es inválida o no tiene permisos. Verifica que sea correcta en los Secretos de AI Studio con el nombre 'GEMINI_API_KEY' o 'key'.")
+                            onResult("⚠️ Error de API Key:\nLa API Key configurada es inválida o no tiene permisos. Verifica que sea correcta en tu configuración (.env) con el nombre 'GEMINI_API_KEY' o 'key'.")
                         } else {
                             onResult("❤️ *${pet.name} inclina la cabeza confundido y da una vueltita.* (Error de API: código ${response.code})")
                         }

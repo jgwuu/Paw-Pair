@@ -115,7 +115,7 @@ fun CoCareScreen(
                         )
                         Spacer(modifier = Modifier.height(12.dp))
                         Text(
-                            text = "Por favor, ve a la Consola de Firebase -> Realtime Database y copia la URL correcta (empieza con https:// y termina con .firebaseio.com o .firebasedatabase.app), luego actualízala en el panel de Secretos de AI Studio con el nombre FIREBASE_DATABASE_URL.",
+                            text = "Por favor, ve a la Consola de Firebase -> Realtime Database y copia la URL correcta (empieza con https:// y termina con .firebaseio.com o .firebasedatabase.app), luego actualízala en tu configuración (.env) con el nombre FIREBASE_DATABASE_URL.",
                             fontSize = 11.sp,
                             color = MaterialTheme.colorScheme.onErrorContainer.copy(alpha = 0.8f)
                         )
