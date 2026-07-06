@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Floating pink hearts above -->
+    <path
+        android:fillColor="#FF2D55"
+        android:pathData="M54,20 C52,16 46,16 46,20 C46,23 54,29 54,29 C54,29 62,23 62,20 C62,16 56,16 54,20 Z" />
+    <path
+        android:fillColor="#FF6B81"
+        android:pathData="M30,24 C28.5,21 24,21 24,24 C24,26.5 30,31 30,31 C30,31 36,26.5 36,24 C36,21 31.5,21 30,24 Z" />
+    <path
+        android:fillColor="#FF6B81"
+        android:pathData="M78,25 C76.5,22 72,22 72,25 C72,27.5 78,32 78,32 C78,32 84,27.5 84,25 C84,22 79.5,22 78,25 Z" />
+
+    <!-- PUG DOG (Left character, centered around X=38, Y=58) -->
+    <!-- Pug floppy dark brown ears -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M24,45 C18,48 18,62 24,65 C28,62 28,48 24,45 Z M52,45 C58,48 58,62 52,65 C48,62 48,48 52,45 Z" />
+    <!-- Pug head & body -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M24,56 C24,40 52,40 52,56 C52,68 48,84 38,84 C28,84 24,68 24,56 Z" />
+    <!-- Blue collar with gold badge -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M26,76 C26,80 50,80 50,76 L50,79 C50,83 26,83 26,79 Z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M38,79 A4.5,4.5 0,1 1,38.1 79 Z" />
+    <!-- Pug dark muzzle/mask -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M30,58 C30,52 46,52 46,58 C46,67 30,67 30,58 Z" />
+    <!-- Pug eyes -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M31,53 A3.5,3.5 0,1 1,31.1 53 Z M45,53 A3.5,3.5 0,1 1,45.1 53 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,52 A1.2,1.2 0,1 1,30.1 52 Z M44,52 A1.2,1.2 0,1 1,44.1 52 Z" />
+    <!-- Pug nose & pink tongue -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M38,57 C36,57 36,59 38,60 C40,59 40,57 38,57 Z" />
+    <path
+        android:fillColor="#FF4757"
+        android:pathData="M35,62 C35,66 41,66 41,62 Z" />
+
+    <!-- ORANGE TABBY CAT (Right character, centered around X=68, Y=58) -->
+    <!-- Cat pointy orange/pink ears -->
+    <path
+        android:fillColor="#F97316"
+        android:pathData="M56,48 L58,34 L68,44 Z M80,48 L78,34 L68,44 Z" />
+    <path
+        android:fillColor="#FDA4AF"
+        android:pathData="M58,45 L59,38 L65,44 Z M78,45 L77,38 L71,44 Z" />
+    <!-- Cat head & body -->
+    <path
+        android:fillColor="#FB923C"
+        android:pathData="M54,56 C54,42 82,42 82,56 C82,68 78,84 68,84 C58,84 54,68 54,56 Z" />
+    <!-- Orange tabby stripes -->
+    <path
+        android:fillColor="#EA580C"
+        android:pathData="M65,43 L68,47 L71,43 L70,42 L68,45 L66,42 Z M54,52 L58,54 L54,56 Z M82,52 L78,54 L82,56 Z" />
+    <!-- White muzzle/chest -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,63 C60,57 76,57 76,63 C76,74 60,74 60,63 Z" />
+    <!-- Purple collar with heart medal -->
+    <path
+        android:fillColor="#9333EA"
+        android:pathData="M56,76 C56,80 80,80 80,76 L80,79 C80,83 56,83 56,79 Z" />
+    <path
+        android:fillColor="#EC4899"
+        android:pathData="M68,78 C66.5,76 64,76 64,78 C64,80 68,83 68,83 C68,83 72,80 72,78 C72,76 69.5,76 68,78 Z" />
+    <!-- Cat eyes -->
+    <path
+        android:fillColor="#451A03"
+        android:pathData="M61,54 A3.5,3.5 0,1 1,61.1 54 Z M75,54 A3.5,3.5 0,1 1,75.1 54 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,53 A1.2,1.2 0,1 1,60.1 53 Z M74,53 A1.2,1.2 0,1 1,74.1 53 Z" />
+    <!-- Cat cute pink nose & mouth -->
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M68,58 L66.5,56.5 L69.5,56.5 Z" />
+    <!-- Cat waving paw hugging pug -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,66 C46,66 46,74 50,74 C54,74 54,66 50,66 Z" />
+    <path
+        android:fillColor="#FDA4AF"
+        android:pathData="M49,69 A1.5,1.5 0,1 1,49.1 69 Z" />
+</vector>

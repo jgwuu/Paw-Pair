@@ -1,0 +1,6 @@
+{
+  "name": "PawPair",
+  "description": "Cuida de tu mascota virtual PawPair en solitario o de forma compartida. Disfruta de 9 minijuegos, recibe notificaciones de cuidado, personaliza el tema visual y vincula tu cuidado con amigos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
