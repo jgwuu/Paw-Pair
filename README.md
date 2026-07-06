@@ -1,21 +1,14 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Paw Pair
 
-# Run and deploy your AI Studio app
+Paw Pair is a companion app that lets you share the experience of raising virtual pets with the people who matter most. Stay connected through interactive home screen widgets while caring for pets together and tracking their progress over time.
 
-This contains everything you need to run your app locally.
+Customize your pets, unlock new appearances, and enjoy a shared experience designed to make everyday interactions more meaningful. Whether you're with a partner or a close friend, Paw Pair offers a simple and engaging way to stay connected.
 
-View your app in AI Studio: https://ai.studio/apps/c3843f67-d8c6-498d-9e3e-dabf2ab80331
+**Features**
 
-## Run Locally
-
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
-
-
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+* Raise and care for virtual pets together
+* Connect with a partner or friend
+* Interactive home screen widgets
+* Customize pets with unique appearances
+* Unlock new content as your pets grow
+* Synchronize your progress across devices
